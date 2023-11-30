@@ -6,4 +6,3 @@ new cloud.Function(inflight () => {
   b.put("hello.txt", "world");
 });
 
-break m1@11!!
