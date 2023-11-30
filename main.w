@@ -9,7 +9,3 @@ let f = new cloud.Function(inflight () => {
 test "bucket is working" {
   f.invoke("");
 }
-
-test "fail" {
-  assert(false);
-}
