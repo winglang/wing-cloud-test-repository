@@ -11,6 +11,10 @@ api.get("/", inflight (req) => {
   return { status: 200, body: "hello, legit" };
 });
 
+api.get("/legit", inflight (req) => {
+  return { status: 200, body: "hey dudes!" };
+});
+
 test "bucket is working" {
   f.invoke("");
 }
