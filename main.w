@@ -8,7 +8,7 @@ let f = new cloud.Function(inflight () => {
 
 let api = new cloud.Api();
 api.get("/", inflight (req) => {
-  return { status: 200, body: "hello, hello" };
+  return { status: 200, body: "hello, legit" };
 });
 
 test "bucket is working" {
